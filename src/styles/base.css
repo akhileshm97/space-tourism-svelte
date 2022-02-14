@@ -1,0 +1,70 @@
+:root {
+	--clr-dark: 230, 35%, 7%;
+	--clr-light: 231, 77%, 90%;
+}
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scrollbar-width: none;
+	scrollbar-color: red blue;
+}
+
+body {
+	/*font-family: Courier New, sans-serif;*/
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+	background: green;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #000000;
+}
+
+main {
+	padding-top: 88px;
+	padding-inline: 4vw;
+	min-height: 100vh;
+}
+
+button {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	margin-inline: auto;
+}
+
+p {
+	max-width: 50ch;
+}
+
+img,
+picture {
+	object-fit: scale-down;
+}
+
+ul[role='tablist'] {
+	list-style: none;
+}
+
+::selection {
+	color: hsl(var(--clr-dark));
+	background-color: hsl(var(--clr-light));
+}
+
+:focus-visible {
+	outline: 2px solid white;
+	outline-offset: 2px;
+}
