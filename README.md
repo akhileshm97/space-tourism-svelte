@@ -4,9 +4,9 @@ Solution to [Frontend Mentor challenge](https://www.frontendmentor.io/challenges
 
 Technologies used:
 
-1. Plain HTML5, CSS3 and JavaScript
+1. HTML5, CSS3, JavaScript and SvelteKit
 2. [Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/) by [Andy Bell](https://piccalil.li/)
 3. [Cube CSS](https://cube.fyi/) methodology by [Andy Bell](https://piccalil.li/)
 4. Netlify and Github for deployment
 
-Find the deployment at [Space-tourism](https://space-tourism-akhileshm97.netlify.app/)
+Find the deployment at [Space-tourism](https://brave-jennings-526daa.netlify.app/)
